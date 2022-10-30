@@ -2,10 +2,10 @@
   "name": "quiz-server",
   "version": "1.0.0",
   "description": "This is the API's collection of quiz plateform",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "non for now",
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
