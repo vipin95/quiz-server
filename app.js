@@ -6,6 +6,6 @@ const hostname = '127.0.0.1';
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
     console.log(`Server is running at http://${hostname}:${port}`);
 });
